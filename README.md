@@ -39,8 +39,7 @@ Projeye ait ekran görüntüleri:
 2. **Projelerin Yüklenmesi:**
   
      ```
-   - Gerekli bağımlılıkları yükleyin:
-     ```bash
+   
      npm install --legacy-peer-deps " "
   
      ```
