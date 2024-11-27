@@ -32,7 +32,7 @@ Projeye ait ekran görüntüleri:
 
 1. **Proje Kurulumu :**
    ```
-   - https://github.com/frknyuksel/ExpenseTracker.git-
+   https://github.com/frknyuksel/ExpenseTracker.git
    ```
 
 
@@ -40,7 +40,7 @@ Projeye ait ekran görüntüleri:
   
      ```
    
-     npm install --legacy-peer-deps " "
+     npm install --legacy-peer-deps 
   
      ```
   3. **Projelerin Çalışması:**
