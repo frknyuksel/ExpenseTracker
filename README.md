@@ -31,6 +31,9 @@ Projeye ait ekran görüntüleri:
 ## 🚀 Proje Kurulumu ve Çalıştırma
 
 1. **Proje Kurulumu :**
+   ```
+   - https://github.com/frknyuksel/ExpenseTracker.git-
+   ```
 
 
 2. **Projelerin Yüklenmesi:**
@@ -42,7 +45,7 @@ Projeye ait ekran görüntüleri:
   
      ```
   3. **Projelerin Çalışması:**
-        ```bash
+     ```   
      npm run dev
   
      ```
