@@ -1,21 +1,43 @@
+/* /* Tailwind katmanları */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Global stil tanımlamaları */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1a202c;
+  /* Varsayılan arka plan rengi */
+  --foreground: #edf2f7;
+  /* Varsayılan metin rengi */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Varsayılan gövde stili */
+body {
+  @apply bg-background text-foreground antialiased;
+}
+
+/* Örnek bir buton */
+button {
+  @apply bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded;
+}
+
+/* @keyframes animasyonu ile renk geçişi */
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Animasyonlu gradient arka plan */
+.animate-gradientBackground {
+  background-size: 200% 200%;
+  animation: gradientBackground 5s ease infinite;
 }

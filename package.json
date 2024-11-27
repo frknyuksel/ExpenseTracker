@@ -9,9 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/icons-material": "^6.1.8",
+    "@mui/material": "^6.1.8",
+    "@radix-ui/react-label": "^2.1.0",
+    "@tabler/icons-react": "^3.22.0",
+    "bcryptjs": "^2.4.3",
+    "chart.js": "^4.4.6",
+    "chartjs": "^0.3.24",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^11.11.17",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf-autotable": "^3.8.4",
+    "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
+    "react-table": "^7.8.0",
+    "react-to-pdf": "^1.0.1",
+    "react-to-print": "^3.0.2",
+    "recharts": "^2.13.3",
+    "tailwind-merge": "^2.5.5"
   },
   "devDependencies": {
     "postcss": "^8",
