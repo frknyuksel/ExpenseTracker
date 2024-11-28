@@ -20,6 +20,10 @@ FinTrack, kullanıcıların gelirlerini ve giderlerini takip edebilmesini sağla
 - **Dinamik Grafikler**: Harcamalar ve gelirler hakkında görsel raporlar oluşturulabilir.
 - **Kullanıcı Girişi**: Kullanıcılar e-posta ve şifre ile giriş yapabilirler.
 
+- ** Örnek Kullanıcı **: Mail:test@example.com, Password:123456 
+
+
+
 ## 📸 Uygulama Görselleri
 
 Projeye ait ekran görüntüleri:
